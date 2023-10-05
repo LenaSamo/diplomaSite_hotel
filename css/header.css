@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Marck+Script&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body{
+    background: #F6F7F4;
+    font-family: 'Cuprum', sans-serif;
+    margin: 10px;
+    font-size: 20px;
+}
+.header{
+	display: grid;
+    margin: 0;
+    margin-bottom: 10px;
+	grid-template-columns: 20% 50% 30%;
+    background-color: #F6F7F4;
+    font-weight: bold;
+    /* box-shadow: 10px 10px 30px #34578C; */
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 800;
+}
+
+/*переход на профиль пользователя*/
+
+.user_ .dropdown-content a{
+	text-decoration: none;
+    padding: 40px;
+}
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.user_ {
+    position: relative;
+    display: grid;
+    grid-template-columns:  70% 30%;
+    text-align: right;
+}
+.userdropbtn{
+    background-image: url(free-icon-font-menu-burger-3917762.png);
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #F6F7F4;
+}
+.dropbtn{
+    background-image: url(free-icon-font-user-3917688.png);
+    background-size: cover;
+    margin: 30px 10px 10px 10px;
+    padding: 20px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #F6F7F4;
+}
+.img_header{
+	width: 100px;
+    margin: 10px 0px -30px 30px;
+}
+.userdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #677486;
+    padding: 10px;
+    min-width: 200px;
+    z-index: 1;
+    right: -1;
+    border-radius: 10px;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #677486;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    min-width: 100px;
+    z-index: 1;
+    right: 0;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.dropdown-content a{
+    color: #F6F7F4;
+    padding: 20px;
+    font-family: 'Cuprum', sans-serif;
+}
+.dropdown-content .button{
+    color: #F6F7F4;
+    padding: 20px;
+    background-color: #677486;
+    border: none;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dropdown-content .button:hover{
+    color: #1d182b;
+}
+.dropdown-content a:hover{
+    color: #1d182b;
+}
+.show {display:block;}
+.showuser{display:block;}
+/*меню сайта*/
+.menu{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+    font-size: 24px;
+}
+.menu a{
+	margin: 10px;
+	padding: 10px;
+	color: #1d182b;
+	text-decoration: none;
+    border-bottom: 1px solid #F6F7F4;
+    /* border-radius: 10px; */
+}
+.menu a:hover{
+    border-bottom: 1px solid #1d182b;
+}
+
+.userdropdown-content a{
+    color: #F6F7F4;
+    padding: 10px;
+    font-family: 'Cuprum', sans-serif;
+    margin: 10px;
+    border: none;
+}
+.userdropdown-content a:hover{
+    border: none;
+    color: #1d182b;
+}
+@media screen and (min-width: 500px) and (max-width: 1300px) {
+    .header{
+        grid-template-columns: 15% 50% 35%;
+    }
+}
+/* @media screen and (min-width: 200px) and (max-width: 850px) {
+    .header{
+        
+    }
+} */

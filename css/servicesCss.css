@@ -1,0 +1,63 @@
+/*вывод услуг*/
+.services{
+    box-shadow: 2px 2px 15px #9DA8B1;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 1000px;
+}
+.service{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.services .button{
+    background-color: #90B2CA;
+    color: #F6F7F4;
+    font-weight: bolder;
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.button:hover, .button:active, .button:focus{
+    background-color: #34578C;
+  }
+.service h2{
+    color: #8388AF;
+    font-size: 35px;
+    width: 200px;
+}
+.info{
+    grid-column: 2/3;
+    text-align: left;
+}
+.img{
+    text-align: center;
+}
+.img_service{
+    height: 300px;
+    width: 500px;
+}
+@media screen and (min-width: 500px) and (max-width: 950px) {
+    .services{
+        width: 600px;
+    }
+    .service h2{
+        width: 100px;
+    }
+    .img_service{
+        height: 150px;
+        width: 250px;
+    }
+
+}
+@media screen and (min-width: 910px) and (max-width: 1300px) {
+    .services{
+        width: 700px;
+    }
+    .img_service{
+        height: 250px;
+        width: 350px;
+    }
+
+}

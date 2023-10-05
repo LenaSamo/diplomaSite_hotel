@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 0;
+}
+
+.booking{
+    overflow: auto;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-size: 17px;
+}
+.table{
+    overflow: auto;
+    width: 100%;
+    height: 500px;
+    font-size: 17px;
+}
+.table_user_search{
+    overflow: auto;
+    width: 100%;
+    height: 150px;
+    font-size: 17px;
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+.Table{
+    text-align: center;
+    padding: 20px;
+    margin: 5px auto;
+    background-color: #9DA8B1;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+._input{
+    border: none;
+    size: 20px;
+    background-color: #F6F7F4;
+    padding: 10px;
+    border-radius: 10px;
+}
+.num_nights{
+    width: 50px;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.button_archive{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #9DA8B1;
+}
+.button_archive:hover, .button_archive:active, .button_archive:focus{
+    background-color: #34578C;
+    color: #ffffff;
+}
+.Table .button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.button_add{
+    background-color: #34578C;
+    margin: 20px;
+    color: #F6F7F4;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.Table .button:hover, .button:active, .button:focus{
+    background-color: #34578C;
+    color: #ffffff;
+}
+
+/*Добавление пользователя*/
+
+.user{
+    margin: 20px;
+}
+.bloc_search{
+    padding: 20px;
+    text-align: center;
+    background-color: #9DA8B1;
+    border-radius: 0  0 10px 10px ;
+}
+.bloc_search_user{
+    padding: 20px;
+    text-align: center;
+}
+
+.search{
+    margin: 0 0 10px 0;
+    padding: 20px 50px;
+    text-align: center;
+    display: inline-block;
+}
+.bloc_search_user .search{
+    padding: 0;
+    border: 2px solid #9DA8B1;
+    border-radius: 10px;
+}
+.search .form-control{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+#search_result{
+    display: none;
+    position: absolute;
+    background-color: #F6F7F4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 10px;
+}
+#search_result_res{
+    display: none;
+    position: absolute;
+    background-color: #F6F7F4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 10px;
+}
+ 
+.roomSubSearch{
+    background-color: #9DA8B1;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.img_room{
+    height: 300px;
+}
+
+.button{
+    background-color: #F6F7F4;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.add{
+    text-align: center;
+}
+.add h2{
+    font-family: 'Playfair Display SC', serif;
+}
+/* .user{
+    margin: 20px 700px 20px 700px ;
+    padding: 20px;
+    border: 2px solid #34578C;
+    text-align: left;
+} */
+.armor_hidden{
+    display: none;
+}
+
+/*услуги*/
+
+.room_edit{
+    text-align: center;
+    margin: 20px;
+}
+
+.room_edit textarea{
+    min-width: 600px;
+    min-height: 300px;
+}
+.room_edit label{
+    font-size: 20px;
+}
+.room_edit ._input{
+    border: none;
+    size: 20px;
+    border: 2px solid #9DA8B1;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 5px 5px 15px 5px;
+}
+.room_edit .img_room{
+    height: 300px;
+    width: 600px;
+}
+.butSave{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+#number_of_guests{
+    width: 100px;
+    text-align: center;
+}
+.form_sub{
+    margin: 10px auto;
+    text-align: center;
+}
+#comfort_categories{
+    text-align: center;
+}
+tr{
+    margin: 0;
+}
+.seacheInput{
+    padding: 15px;
+    background-color: #cfd5dd;
+    border: none;
+    border-radius: 10px;
+}

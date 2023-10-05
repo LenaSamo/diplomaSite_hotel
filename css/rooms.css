@@ -1,0 +1,230 @@
+/*блок с названием страницы и фильтарицей для страницы rooms.php*/
+
+.room_menu{
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #9DA8B1;
+    font-size: larger;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+#check_in_date, #date_departure, #number_of_guests, #kol_room, .add_room{
+    background-color: #9DA8B1;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+#comfort:s{
+    background-color: #34578C;
+}
+
+
+.room_menu .button{
+    background-color: #34578C;
+    color: #F6F7F4;
+    font-size: 15px;
+    padding: 20px 50px 20px 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*вывод комнат*/
+.rooms{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+    justify-content: center;
+    
+}
+.room{
+	box-shadow: 2px 2px 15px #9DA8B1;
+    margin: 40px 40px 0px 0px;
+	width: 350px;
+	border-radius: 10px;
+    padding: 20px;
+}
+.room .room_inform{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+	background-color: #9DA8B1;
+}
+.room .img_room{
+    height: 180px;
+    width: 350px;
+    border-radius: 10px;
+}
+.room p
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.room .sub_prise .button
+{
+    border: none;
+    border-radius: 10px;
+	background-color: #F6F7F4;
+    height: 50px;
+    width: 200px;
+	font-size: 17px;
+	font-weight: bold;
+}  
+.room .sub_prise .button:hover, .button:active, .button:focus
+{
+	background-color: #34578C;
+    color: #F6F7F4;
+}   
+#button_room{
+	padding: 10px;
+    margin: 10px;
+}
+#armor_hidden, .add_kol_room {
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 3px solid #9DA8B1;
+    display: none;
+}
+.number_of_guests{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+	background-color: #9DA8B1;
+    border: none;
+}
+#button_room_armor{
+    background-color: #9DA8B1;
+    color: #F6F7F4;
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+#button_room_armor:hover, 
+#button_room_armor:active,
+#button_room_armor:focus{
+    background-color: #34578C;
+    
+}
+.res_id_room input{
+    background-color: #9DA8B1;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    margin-left: 5px;
+	
+}
+#name_user{
+	background-color: #F6F7F4;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid #9DA8B1;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+	width: 1000px;
+}
+#p_user{
+	font-size: 20px;
+}
+/*select с выбором*/
+.checkselect {
+	position: relative;
+	display: inline-block;
+	min-width: 200px;
+	text-align: left;
+	z-index: 400;
+}
+.checkselect-control {
+	position: relative;
+	padding: 0 !important;
+}		
+.checkselect-control select {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding-left: 5px;
+	height: 40px;
+	background-color: #9DA8B1;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.checkselect-over {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0; 			
+	cursor: pointer;
+}
+.checkselect-popup {
+	display: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	max-height: 200px;
+	position: absolute;
+	top: 100%;
+	left: 0px; 
+	border: 1px solid #dadada;
+	border-top: none;
+	background: #fff;
+	z-index: 9999;
+	overflow: auto;
+	user-select: none;
+}	
+.checkselect label {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 4px 6px 4px 25px;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.1;
+	cursor: pointer;
+}			
+.checkselect-popup input {
+	position: absolute;
+	top: 5px; 
+	left: 8px;
+	margin: 0 !important;
+	padding: 0;
+}
+.checkselect-popup label:hover {
+	background: #03a2ff;
+	color: #fff;
+}
+.checkselect-popup fieldset {
+	display: block;
+	margin:  0;
+	padding: 0;
+	border: none;
+}
+.checkselect-popup fieldset input {
+	left: 15px;
+}		
+.checkselect-popup fieldset label {
+	padding-left: 32px;
+}		
+.checkselect-popup legend {
+	display: block;
+	margin: 0;
+	padding: 5px 8px;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1.1;
+}

@@ -1,0 +1,90 @@
+
+
+
+.toComeIn .button{
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+}
+.Register .button{
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+}
+
+.Register  .app{
+	text-decoration: none;
+	border: none;
+}
+
+.room{
+	border: 1px solid black;
+	margin: 20px;
+	width: 350px;
+	height: 200px;
+}
+
+.rooms{
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.room a{
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px 50px 10px 50px;
+	text-decoration: none;
+
+}
+.room p
+{
+	height: 70px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+
+#button_room{
+	padding: 10px;
+}
+
+.form{
+	text-align: center;
+}
+
+.form .button{
+	text-decoration: none;
+	padding: 10px;
+	border: 1px solid black;
+	color: black;
+	background: white;
+	margin: 10px;
+}
+
+.room_menu{
+	margin: 20px;
+}
+
+.sub_prise{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.sub_prise .button{
+	padding: 10px;
+	height: 40px;
+}
+
+.add{
+	text-align: center;
+}
+
+.booking_info{
+	border-bottom: 2px solid black;
+}

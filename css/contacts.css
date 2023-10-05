@@ -1,0 +1,22 @@
+.info{
+    margin: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.carts{
+    padding: 20px;
+}
+
+.con_inf{
+    text-align: center;
+}
+@media screen and (min-width: 500px) and (max-width: 1050px) {
+    .info{
+        display: block;
+    }
+    .carts{
+        padding: 20px;
+        text-align: center;
+    }
+}

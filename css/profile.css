@@ -1,0 +1,260 @@
+.user_profile{
+    text-align: center;
+    margin: 20px;
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.user_profile{
+    background-color: #9DA8B1;
+    margin: 20px 40px 20px 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.user_profile H2{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.user_profile .p{
+    font-size: 25px;
+    color: black;
+    margin: 5px;
+  }
+.user_profile p{
+    font-size: 25px;
+    color: black;
+    margin: 5px;
+}
+.info_and_button{
+    margin-bottom: 40px;
+    padding: 20px;
+    border-top: 10px solid #F6F7F4;
+    border-bottom: 10px solid #F6F7F4;
+    border-radius: 10px;
+    background-image: url(fon_main.png);
+    background-size: 110% auto;
+    font-weight: 700;
+}
+.info_and_button .button{
+    font-weight: 700;
+    padding: 20px;
+    margin: 10px;
+    background-color: #F6F7F4;
+    border: none;
+    border-radius: 10px;
+}
+
+.bookings{
+    margin-bottom: 40px;
+    padding: 20px;
+    border-top: 10px solid #F6F7F4;
+    border-bottom: 10px solid #F6F7F4;
+    border-radius: 10px;
+}
+
+.bookings h3{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.booking_info{
+    margin-bottom: 40px;
+    padding: 20px;
+    border-top: 3px solid #F6F7F4;
+    text-align: center;
+}
+.booking_info ._input{
+    border: none;
+    background-color: #9DA8B1;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.booking_info .button{
+    border: none;
+    background-color: #F6F7F4;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.input_date{
+    font-size: 30px;
+}
+.input_date ._input{
+    border: 3px solid #9DA8B1;
+    background-color: #9DA8B1;
+}
+.div_room{
+    margin: 10px auto;
+    padding: 30px;
+    background-color: #f6f7f472;
+    border-radius: 30px;
+    text-align: left;
+    width: 400px;
+}
+.div_room h4{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.check_in_date{
+    text-align: right;
+}
+.button:hover, .button:active, .button:focus{
+    background-color: #34578C;
+    color: #ffffff;
+}
+/*редактировать профиль*/
+.user_edit{
+    text-align: center;
+    margin: 20px;
+
+}
+
+.user_edit ._input{
+    padding: 13px;
+    background-color: #F6F7F4;
+    border: 3px solid #9DA8B1;
+    border-radius: 10px;
+    margin: 5px;
+}
+.form{
+    background-image: url(fon_avt_reg.png);
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user_edit ._input:hover, ._input:active, ._input:focus{
+    border: 3px solid #F6F7F4;
+}
+.user_edit{
+    padding: 50px;
+    background-color: #9da8b1be;
+    margin: 20px 600px 20px 600px;
+    border-radius: 5PX;
+    text-align: center;
+
+}
+.user_edit .button{
+    margin: 10px;
+    padding: 15px 50px 15px 50px;
+    color: #2d4161;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+.user_edit .button:hover, .button:active, .button:focus{
+    background-color: #34578C;
+    color: #ffffff;
+}
+
+/*смена пароля*/
+.forma{
+    text-align: center;
+}
+.form_grup{
+    margin: 20px;
+}
+.forma ._input{
+    padding: 13px;
+    background-color: #F6F7F4;
+    border: 3px solid #9DA8B1;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.forma ._input:hover, ._input:active, ._input:focus{
+    border: 3px solid #F6F7F4;
+}
+.form_grup ._input:hover, ._input:active, ._input:focus{
+    border: 3px solid #34578C;
+}
+
+.forma .button{
+    margin: 10px;
+    padding: 15px 50px 15px 50px;
+    
+    color: #2d4161;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px solid #34578C;
+}
+.forma .button:hover, .button:active, .button:focus{
+    background-color: #34578C;
+    color: #ffffff;
+}
+.forma .button:disabled {
+    background-color: #92969e;
+    border: 3px solid #4b4e52;
+    color: #000000;
+}
+@media screen and (min-width: 1490px) and (max-width: 1600px) {
+    .form{
+        background-size: 85% auto;
+    }
+    .user_edit{
+        margin: 20px 500px 20px 500px;
+    
+    }
+
+}
+@media screen and (min-width: 1393px) and (max-width: 1490px) {
+    .form{
+        background-size: 85% auto;
+    }
+    .user_edit{
+        margin: 20px 500px 20px 500px;
+    }
+
+}
+@media screen and (min-width: 1193px) and (max-width: 1393px) {
+    .form{
+        background-size: 85% auto;
+    }
+    .user_edit{
+        margin: 20px 400px 20px 400px;
+    }
+
+}
+@media screen and (min-width: 1090px) and (max-width: 1193px) {
+    .form{
+        background-size: 120% auto;
+    }
+    .user_edit{
+        margin: 20px 300px 20px 300px;
+    
+    }
+
+}
+@media screen and (min-width: 900px) and (max-width: 1090px) {
+    .form{
+        background-size: 130% auto;
+    }
+    .user_edit{
+        margin: 20px 200px 20px 200px;
+    
+    }
+
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .form{
+        background-size: 140% auto;
+    }
+    .user_edit{
+        margin: 20px 100px 20px 100px;
+    
+    }
+
+}
+.error{
+    color: #ff1100;
+    font-weight: bold;
+    font-size: 20px;
+}
+
